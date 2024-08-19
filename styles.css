@@ -4,39 +4,37 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    background: #f9f9f9; /* Neutro claro */
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #e0e0e0; /* Neutro claro */
     padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     text-align: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 15px;
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* Ajuste a altura conforme necessário */
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.logo {
+    max-height: 50px; /* Garante que o logo não fique grande */
+    max-width: 100%;
 }
 
 main {
     padding: 20px;
     max-width: 800px;
     margin: auto;
+    background: #ffffff; /* Neutro claro */
+    color: #333;
 }
 
 h1, h2 {
-    color: #0056b3;
+    color: #ff6600; /* Laranja para destacar títulos */
 }
 
 ul {
@@ -51,7 +49,7 @@ ul li {
 
 .pdf-link {
     display: inline-block;
-    background: #0056b3;
+    background: #ff6600; /* Laranja */
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -59,12 +57,12 @@ ul li {
 }
 
 .pdf-link:hover {
-    background: #004494;
+    background: #cc5200; /* Laranja mais escuro para o hover */
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #e0e0e0; /* Neutro claro */
+    color: #333;
     text-align: center;
     padding: 10px 0;
     position: fixed;
